@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body {
-    background: #002339;
-    color: #fff
+    background: #50394c;
+    color: #f4e1d2
 }
 .container {
     margin: 12%;
@@ -30,8 +30,8 @@ body {
     font-size: 45px;
 }
 .container h1 span {
-    color: #019f55;
-    border-bottom: 4px solid #019f55;
+    color: #ffef96;
+    border-bottom: 4px solid #f4e1d2;
     padding-bottom: 7px;
 }
 .display img {
@@ -46,6 +46,7 @@ body {
 .container button img {
     width: 28px;
     margin-right: 10px;
+    filter: grayscale(180deg);
 }
 .container button {
     border: 0;
